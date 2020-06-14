@@ -38,7 +38,7 @@ the citing article uses the method proposed in the cite article (*cito:usesMetho
 If the past 10 years has shown anything, it is that the activity of scholarly communication via journal articles is
 not easily changed. Whether it is widespread adoption of data repository, minimal reporting standards, or
 freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project
-[<cite>Q26271531</cite>,<cite type="citesAsAuthority">Q86246929</cite>] and Initiative for Open Citations [<cite type="citesAsAuthority">Q29189885</cite>]
+[<cite>Q26271531</cite>,<cite type="citesAsAuthority">Q86246929</cite>] and Initiative for Open Citations [<cite type="citesForInformation">Q29189885</cite>]
 show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
