@@ -25,7 +25,7 @@ citation is neutral (*cito:citesAsAuthority*), positive (*cito:confirms*), or ne
 The ontology also allows us to indicate reuse of methods and software (*cito:usesMethodIn*) and data (*cito:usesDataFrom*).
 This, of course, is closely related to recent efforts in data citation [<cite>Q58333293</cite>]
 and software citation [<cite>Q26941501</cite>].
-The adoption of the CiTO, however, has so far not been wide in publishing. CiteULike [<cite>Q96278749</cite>] was one of
+The adoption of the CiTO, however, has so far not been wide in publishing. CiteULike [<cite type="citesAsAuthority">Q96278749</cite>] was one of
 the first tools that had support [<cite>WIL2010</cite>]. It allowed users to create citations with CiTO typing
 (see Figure&nbsp;1).
 
@@ -38,7 +38,7 @@ the citing article uses the method proposed in the cite article (*cito:usesMetho
 If the past 10 years has shown anything, it is that the activity of scholarly communication via journal articles is
 not easily changed. Whether it is widespread adoption of data repository, minimal reporting standards, or
 freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project
-[<cite>Q26271531</cite>,<cite>Q86246929</cite>] and Initiative for Open Citations [<cite>Q29188397</cite>]
+[<cite>Q26271531</cite>,<cite type="citesAsAuthority">Q86246929</cite>] and Initiative for Open Citations [<cite type="citesAsAuthority">Q29189885</cite>]
 show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
@@ -71,7 +71,7 @@ We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigen
 These annotation will be handled at an editorial level.
 
 With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
-to use this information in Wikicite [<cite>Q28843308</cite>] and Scholia [<cite>Q41799194</cite>]
+to use this information in Wikicite [<cite>Q28843308</cite>] and Scholia [<cite type="citesAsAuthority">Q41799194</cite>]
 to demonstrate downstream use,
 but hope that projects like OpenCitations and SciGraph
 ([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph)
