@@ -42,7 +42,7 @@ lines.each { String line ->
         if (bibliography.get(cites) != null) {
           bibList += bibliography.get(cites) + "\n"
         } else {
-          bibList += "${labels["missing"][lang]}\n"
+          bibList += "Missing\n"
         }
         replacement = "<a href=\"#citeref${refCounter}\">${refCounter}</a>"
       } else {

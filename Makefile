@@ -3,7 +3,7 @@ TARGETS := editorial.md
 
 all: editorial.md
 
-references.qids: findCitations.groovy
+references.qids: findCitations.groovy ${SOURCES}
 	@echo "Finding the citations"
 	@groovy findCitations.groovy . | grep "^Q" | sort | uniq > references.qids
 
