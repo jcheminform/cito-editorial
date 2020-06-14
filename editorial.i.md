@@ -18,7 +18,7 @@ because we disagree with the statements. For example, a 2011 paper in Science ab
 of arsenate ions in DNA has seen mostly disagreeing citations [<cite>Q21706159</cite>].
 
 Ten years ago, Shotton *et al.* published an ontology
-that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO) [<cite>Q21198690</cite>]. 
+that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO) [<cite type="usesMethodIn">Q21198690</cite>]. 
 This ontology defines a citation as the act of citing some article. That allows one to make
 statements about the citation, in a machine readable way. Using the CiTO we can say the
 citation is neutral (*cito:citesAsAuthority*), positive (*cito:confirms*), or negative (*cito:disagreesWith*).
@@ -69,6 +69,15 @@ in the cited article. However, you are free to use any of the other CiTO types, 
 
 We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:cito:updates*).
 These annotation will be handled at an editorial level.
+
+With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
+to use this information in Wikicite [<cite>Q28843308</cite>] and Scholia [<cite>Q41799194</cite>]
+to demonstrate downstream use,
+but hope that projects like OpenCitations and SciGraph
+([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph)
+will pick it up too.
+Let his be the egg or chicken (depending on your philosophy) we are looking for to innovate
+how we cite our literature.
 
 ## References
 

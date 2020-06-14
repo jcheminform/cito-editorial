@@ -70,6 +70,15 @@ in the cited article. However, you are free to use any of the other CiTO types, 
 We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:cito:updates*).
 These annotation will be handled at an editorial level.
 
+With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
+to use this information in Wikicite [<a href="#citeref11">11</a>] and Scholia [<a href="#citeref12">12</a>]
+to demonstrate downstream use,
+but hope that projects like OpenCitations and SciGraph
+([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph)
+will pick it up too.
+Let his be the egg or chicken (depending on your philosophy) we are looking for to innovate
+how we cite our literature.
+
 ## References
 
 1. <a name="citeref1"></a>Agarwal P, Searls DB. Can literature analysis identify innovation drivers in drug discovery? Nat Rev Drug Discov. 2009 Nov 1;8(11):865–78.  doi:[10.1038/NRD2973](https://doi.org/10.1038/NRD2973) ([Scholia](https://scholia.toolforge.org/doi/10.1038/NRD2973))
@@ -82,4 +91,6 @@ These annotation will be handled at an editorial level.
 8. <a name="citeref8"></a>Shotton D. Open citations. Nature. 2013 Oct 1;502(7471):295–7.  doi:[10.1038/502295A](https://doi.org/10.1038/502295A) ([Scholia](https://scholia.toolforge.org/doi/10.1038/502295A))
 9. <a name="citeref9"></a>Peroni S, Shotton D. OpenCitations, an infrastructure organization for open scholarship. Quantitative Science Studies. 2020 Feb;1(1):428–44.  doi:[10.1162/QSS_A_00023](https://doi.org/10.1162/QSS_A_00023) ([Scholia](https://scholia.toolforge.org/doi/10.1162/QSS_A_00023))
 10. <a name="citeref10"></a>Initiative for Open Citations [Internet]. Available from: https://i4oc.org/
+11. <a name="citeref11"></a>Taraborelli D, Dugan JM, Pintscher L, Mietchen D, Neylon C. WikiCite 2016 Report [Internet]. Wikimedia Commons. 2016 Nov. Available from: https://upload.wikimedia.org/wikipedia/commons/2/2b/WikiCite_2016_report.pdf doi:[10.6084/M9.FIGSHARE.4042530](https://doi.org/10.6084/M9.FIGSHARE.4042530) ([Scholia](https://scholia.toolforge.org/doi/10.6084/M9.FIGSHARE.4042530))
+12. <a name="citeref12"></a>Nielsen FÅ, Mietchen D, Willighagen E. Scholia, Scientometrics and Wikidata. In: The Semantic Web: ESWC 2017 Satellite Events [Internet]. 2017. p. 237–59. Available from: http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/7010/pdf/imm7010.pdf doi:[10.1007/978-3-319-70407-4_36](https://doi.org/10.1007/978-3-319-70407-4_36) ([Scholia](https://scholia.toolforge.org/doi/10.1007/978-3-319-70407-4_36))
 
