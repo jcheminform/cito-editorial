@@ -29,7 +29,7 @@ The adoption of the CiTO, however, has so far not been wide in publishing. CiteU
 the first tools that had support [<a href="#citeref7">7</a>]. It allowed users to create citations with CiTO typing
 (see Figure&nbsp;1).
 
-![culcito.png]()
+![](culcito.png) <br />
 Figure&nbsp;1: Screenshot of CiteUlike showing the citation between two articles and that the reason is that
 the citing article uses the method proposed in the cite article (*cito:usesMethodIn*).
 
@@ -37,8 +37,9 @@ the citing article uses the method proposed in the cite article (*cito:usesMetho
 
 If the past 10 years has shown anything, it is that the activity of scholarly communication via journal articles is
 not easily changed. Whether it is widespread adoption of data repository, minimal reporting standards, or
-freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project and Initiative
-for Open Citations showed how hard it is to change the momentum. And while CiteULike introduced support for
+freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project
+[<a href="#citeref8">8</a>,<a href="#citeref9">9</a>] and Initiative for Open Citations [<a href="#citeref10">10</a>]
+show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
 same time, or there is no us of it, why invest effort to provide such annotation.
@@ -57,6 +58,18 @@ with the *]* character.
 By using this specific syntax, we introduce a level of machine readability that this annotation can
 be extracted with text mining approaches and used by downstream citation projects.
 
+These bibnotes can be used to overwrite the default *cito:cites*. We currently encourage
+authors interested in participating in this pilot to use the following CiTO types: *cito:citesAsDataSource*
+when you use data in your paper from the cited source, *cito:usesMethodIn* when you use a method
+from the cites source, *cito:citesAsAuthority* for articles that you cite as authorative works
+in the field, *cito:discusses* when you discusse the content of the cited article, and
+*cito:extends* when your article describes a new realease of software or database described
+in the cited article. However, you are free to use any of the other CiTO types, including
+*cito:agreesWith* and *cito:disagreesWith*.
+
+We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:cito:updates*).
+These annotation will be handled at an editorial level.
+
 ## References
 
 1. <a name="citeref1"></a>Agarwal P, Searls DB. Can literature analysis identify innovation drivers in drug discovery? Nat Rev Drug Discov. 2009 Nov 1;8(11):865–78.  doi:[10.1038/NRD2973](https://doi.org/10.1038/NRD2973) ([Scholia](https://scholia.toolforge.org/doi/10.1038/NRD2973))
@@ -66,4 +79,7 @@ be extracted with text mining approaches and used by downstream citation project
 5. <a name="citeref5"></a>Smith AM, Katz DS, Niemeyer KE, Group FSCW. Software citation principles. Peroni S, editor. PeerJ Comput Sci [Internet]. 2016 Sep 19;2:e86. Available from: https://peerj.com/articles/cs-86.pdf doi:[10.7717/PEERJ-CS.86](https://doi.org/10.7717/PEERJ-CS.86) ([Scholia](https://scholia.toolforge.org/doi/10.7717/PEERJ-CS.86))
 6. <a name="citeref6"></a>McMullen A. CiteULike. Public Services Quarterly. 2010 Nov 9;6(4):368–9.  doi:[10.1080/15228951003772595](https://doi.org/10.1080/15228951003772595) ([Scholia](https://scholia.toolforge.org/doi/10.1080/15228951003772595))
 7. <a name="citeref7"></a>E.L. Willighagen, CiTO / CiteULike: publishing innovation, 2012, chem-bla-ics, https://chem-bla-ics.blogspot.com/2012/02/cito-citeulike-publishing-innovation.html
+8. <a name="citeref8"></a>Shotton D. Open citations. Nature. 2013 Oct 1;502(7471):295–7.  doi:[10.1038/502295A](https://doi.org/10.1038/502295A) ([Scholia](https://scholia.toolforge.org/doi/10.1038/502295A))
+9. <a name="citeref9"></a>Peroni S, Shotton D. OpenCitations, an infrastructure organization for open scholarship. Quantitative Science Studies. 2020 Feb;1(1):428–44.  doi:[10.1162/QSS_A_00023](https://doi.org/10.1162/QSS_A_00023) ([Scholia](https://scholia.toolforge.org/doi/10.1162/QSS_A_00023))
+10. <a name="citeref10"></a>Initiative for Open Citations [Internet]. Available from: https://i4oc.org/
 

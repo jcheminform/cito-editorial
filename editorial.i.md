@@ -29,7 +29,7 @@ The adoption of the CiTO, however, has so far not been wide in publishing. CiteU
 the first tools that had support [<cite>WIL2010</cite>]. It allowed users to create citations with CiTO typing
 (see Figure&nbsp;1).
 
-![culcito.png]()
+![](culcito.png) <br />
 Figure&nbsp;1: Screenshot of CiteUlike showing the citation between two articles and that the reason is that
 the citing article uses the method proposed in the cite article (*cito:usesMethodIn*).
 
@@ -37,8 +37,9 @@ the citing article uses the method proposed in the cite article (*cito:usesMetho
 
 If the past 10 years has shown anything, it is that the activity of scholarly communication via journal articles is
 not easily changed. Whether it is widespread adoption of data repository, minimal reporting standards, or
-freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project and Initiative
-for Open Citations showed how hard it is to change the momentum. And while CiteULike introduced support for
+freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project
+[<cite>Q26271531</cite>,<cite>Q86246929</cite>] and Initiative for Open Citations [<cite>Q29188397</cite>]
+show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
 same time, or there is no us of it, why invest effort to provide such annotation.
@@ -56,6 +57,18 @@ That is, the bibnote starts with the *[* character, followed by one of the CiTO 
 with the *]* character.
 By using this specific syntax, we introduce a level of machine readability that this annotation can
 be extracted with text mining approaches and used by downstream citation projects.
+
+These bibnotes can be used to overwrite the default *cito:cites*. We currently encourage
+authors interested in participating in this pilot to use the following CiTO types: *cito:citesAsDataSource*
+when you use data in your paper from the cited source, *cito:usesMethodIn* when you use a method
+from the cites source, *cito:citesAsAuthority* for articles that you cite as authorative works
+in the field, *cito:discusses* when you discusse the content of the cited article, and
+*cito:extends* when your article describes a new realease of software or database described
+in the cited article. However, you are free to use any of the other CiTO types, including
+*cito:agreesWith* and *cito:disagreesWith*.
+
+We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:cito:updates*).
+These annotation will be handled at an editorial level.
 
 ## References
 
