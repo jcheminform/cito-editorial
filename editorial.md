@@ -3,16 +3,16 @@
 Egon Willighagen, 0000-0001-7542-0286, Dept of Bioinformatics - BiGCaT, NUTRIM, Maastricht University
 
 We cite other literature for many reasons. The reasons are normally positive: it supports a statement
-we make in our article, the new work extends on earlier ides, or the cited paper outlines a method
-or a data set we use. Sometimes, however, we cite an article differently. For example, because we
+we make in our article, the new work extends earlier idesa, or the cited paper outlines a method
+or a dataset we use. Sometimes, however, we cite an article differently such as when we
 disagree with the conclusions from that article. 
 Citations help us find more information about a concept, and allow individual journal article
-to focus on the new content. Furthermore, they position the new work on its historical context
+to focus on the new content. Furthermore, they position the new work in its historical context
 and citation analyses can point us to research topics we would otherwise not have
 thought of [<a href="#citeref1">1</a>].
 
 Of course, citations have found additional uses that stem from the idea that articles that are
-cited a lot may be important. Would we assume that all citations to an article are positive,
+cited a lot may be important. If we assume that all citations to an article are positive,
 this is a logical conclusion. However, citations are not always positive. We can cite an article
 because we disagree with the statements. For example, a 2011 paper in Science about the possible uptake
 of arsenate ions in DNA has seen mostly disagreeing citations [<a href="#citeref2">2</a>].
@@ -25,7 +25,7 @@ citation is neutral (*cito:citesAsAuthority*), positive (*cito:confirms*), or ne
 The ontology also allows us to indicate reuse of methods and software (*cito:usesMethodIn*) and data (*cito:usesDataFrom*).
 This, of course, is closely related to recent efforts in data citation [<a href="#citeref4">4</a>]
 and software citation [<a href="#citeref5">5</a>].
-The adoption of the CiTO, however, has so far not been wide in publishing. CiteULike [<a href="#citeref6">6</a>] was one of
+The adoption of the CiTO, however, has so far, not been wide in publishing. CiteULike [<a href="#citeref6">6</a>] was one of
 the first tools that had support [<a href="#citeref7">7</a>]. It allowed users to create citations with CiTO typing
 (see Figure&nbsp;1).
 
@@ -44,14 +44,13 @@ the CiTO, other references managers have not (yet). A chicken-and-egg situation 
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
 same time, or there is no us of it, why invest effort to provide such annotation.
 
-However, the Journal of Cheminformatics finds adoption important. For example, we may want to learn what
+However, the Journal of Cheminformatics considers adoption important. For example, we may want to learn what
 articles are using a method proposed in some article. We may want to see how data is reused. And we may
 want to get warned that we are citing an article that has been refuted repeatedly.
 
 Therefore, we are starting a pilot to roll out CiTO annotation in the Journal of Cheminformatics. We
 take advantage here of the ability to add notes to *full form* (see [<a href="#citeref3">3</a>])
 references in bibliographies. These are referred to as *bibnotes*.
-This feature hass not been used by the Journal of Cheminformatics otherwise.
 The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
 That is, the bibnote starts with the *[* character, followed by one of the CiTO types, and ending
 with the *]* character.
@@ -68,7 +67,7 @@ in the cited article. However, you are free to use any of the other CiTO types, 
 *cito:agreesWith* and *cito:disagreesWith*.
 
 We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:cito:updates*).
-These annotation will be handled at an editorial level.
+These annotations will be handled at an editorial level.
 
 With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
 to use this information in Wikicite [<a href="#citeref11">11</a>] and Scholia [<a href="#citeref12">12</a>]
@@ -76,7 +75,7 @@ to demonstrate downstream use,
 but hope that projects like OpenCitations and SciGraph
 ([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph)
 will pick it up too.
-Let his be the egg or chicken (depending on your philosophy) we are looking for to innovate
+Let this be the egg or chicken (depending on your philosophy) we are looking for to innovate
 how we cite our literature.
 
 ## References
