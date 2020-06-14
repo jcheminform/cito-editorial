@@ -18,7 +18,7 @@ because we disagree with the statements. For example, a 2011 paper in Science ab
 of arsenate ions in DNA has seen mostly disagreeing citations [<cite>Q21706159</cite>].
 
 Ten years ago, Shotton *et al.* published an ontology
-that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO) [<cite type="usesMethodIn">Q21198690</cite>]. 
+that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO) [<cite type="usesMethodIn">Q24260683</cite>]. 
 This ontology defines a citation as the act of citing some article. That allows one to make
 statements about the citation, in a machine readable way. Using the CiTO we can say the
 citation is neutral (*cito:citesAsAuthority*), positive (*cito:confirms*), or negative (*cito:disagreesWith*).
@@ -49,7 +49,7 @@ articles are using a method proposed in some article. We may want to see how dat
 want to get warned that we are citing an article that has been refuted repeatedly.
 
 Therefore, we are starting a pilot to roll out CiTO annotation in the Journal of Cheminformatics. We
-take advantage here of the ability to add notes to *full form* (see [<cite>Q21198690</cite>])
+take advantage here of the ability to add notes to *full form* (see [<cite>Q24260683</cite>])
 references in bibliographies. These are referred to as *bibnotes*.
 This feature hass not been used by the Journal of Cheminformatics otherwise.
 The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
