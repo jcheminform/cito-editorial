@@ -25,7 +25,7 @@ citation is neutral (*cito:citesAsAuthority*), positive (*cito:confirms*), or ne
 The ontology also allows us to indicate reuse of methods and software (*cito:usesMethodIn*) and data (*cito:usesDataFrom*).
 This, of course, is closely related to recent efforts in data citation [<a href="#citeref4">4</a>]
 and software citation [<a href="#citeref5">5</a>].
-The adoption of the CiTO, however, has so far, not been wide in publishing. CiteULike [<a href="#citeref6">6</a>] was one of
+The adoption of the CiTO, however, has so far not been wide in publishing. CiteULike [<a href="#citeref6">6</a>] was one of
 the first tools that had support [<a href="#citeref7">7</a>]. It allowed users to create citations with CiTO typing
 (see Figure&nbsp;1).
 
@@ -42,10 +42,10 @@ freely sharing citations, the interest is there, but the uptake is slow. The Ope
 show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
-same time, or there is no us of it, why invest effort to provide such annotation.
+same time, if there is no use of it, why invest effort to provide such annotation.
 
 However, the Journal of Cheminformatics considers adoption important. For example, we may want to learn what
-articles are using a method proposed in some article. We may want to see how data is reused. And we may
+articles are using a method proposed in some article. We may want to see how data is reused, or we may
 want to get warned that we are citing an article that has been refuted repeatedly.
 
 Therefore, we are starting a pilot to roll out CiTO annotation in the Journal of Cheminformatics. We
@@ -54,7 +54,7 @@ references in bibliographies. These are referred to as *bibnotes*.
 The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
 That is, the bibnote starts with the *[* character, followed by one of the CiTO types, and ending
 with the *]* character.
-By using this specific syntax, we introduce a level of machine readability that this annotation can
+By using this specific syntax, we introduce a level of machine readability such that this annotation can
 be extracted with text mining approaches and used by downstream citation projects.
 
 These bibnotes can be used to overwrite the default *cito:cites*. We currently encourage
@@ -66,7 +66,7 @@ in the field, *cito:discusses* when you discuss the content of the cited article
 in the cited article. However, you are free to use any of the other CiTO types, including
 *cito:agreesWith* and *cito:disagreesWith*.
 
-We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:cito:updates*).
+We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:updates*).
 These annotations will be handled at an editorial level.
 
 With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
