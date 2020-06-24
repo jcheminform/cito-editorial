@@ -61,7 +61,7 @@ These bibnotes can be used to overwrite the default *cito:cites*. We currently e
 authors interested in participating in this pilot to use the following CiTO types: *cito:citesAsDataSource*
 when you use data in your paper from the cited source, *cito:usesMethodIn* when you use a method
 from the cites source, *cito:citesAsAuthority* for articles that you cite as authorative works
-in the field, *cito:discusses* when you discusse the content of the cited article, and
+in the field, *cito:discusses* when you discuss the content of the cited article, and
 *cito:extends* when your article describes a new realease of software or database described
 in the cited article. However, you are free to use any of the other CiTO types, including
 *cito:agreesWith* and *cito:disagreesWith*.
