@@ -73,9 +73,9 @@ With this pilot we hope to trigger further adoption of approaches like CiTO. We 
 to use this information in Wikicite [<a href="#citeref11">11</a>] and Scholia [<a href="#citeref12">12</a>]
 to demonstrate downstream use,
 but hope that projects like OpenCitations and SciGraph
-([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph)
+([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph))
 will pick it up too.
-Let this be the egg or chicken (depending on your philosophy) we are looking for to innovate
+Let this be the egg or chicken (depending on your philosophy) we are looking to innovate
 how we cite our literature.
 
 ## References
