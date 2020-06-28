@@ -3,10 +3,10 @@
 Egon Willighagen, 0000-0001-7542-0286, Dept of Bioinformatics - BiGCaT, NUTRIM, Maastricht University
 
 We cite other literature for many reasons. The reasons are normally positive: it supports a statement
-we make in our article, the new work extends earlier idesa, or the cited paper outlines a method
-or a dataset we use. Sometimes, however, we cite an article differently such as when we
+we make in our article, the new work extends earlier ideas, or the cited paper outlines a method
+or a dataset we use. Sometimes, however, we cite an article differently, such as when we
 disagree with the conclusions from that article. 
-Citations help us find more information about a concept, and allow individual journal article
+Citations help us find more information about a concept and allow individual journal article
 to focus on the new content. Furthermore, they position the new work in its historical context
 and citation analyses can point us to research topics we would otherwise not have
 thought of [<a href="#citeref1">1</a>].
@@ -44,11 +44,11 @@ the CiTO, other references managers have not (yet). A chicken-and-egg situation 
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
 same time, if there is no use of it, why invest effort to provide such annotation.
 
-However, the Journal of Cheminformatics considers adoption important. For example, we may want to learn what
+However, the *Journal of Cheminformatics* considers adoption important. For example, we may want to learn what
 articles are using a method proposed in some article. We may want to see how data is reused, or we may
 want to get warned that we are citing an article that has been refuted repeatedly.
 
-Therefore, we are starting a pilot to roll out CiTO annotation in the Journal of Cheminformatics. We
+Therefore, we are starting a pilot to roll out CiTO annotation in the *Journal of Cheminformatics*. We
 take advantage here of the ability to add notes to *full form* (see [<a href="#citeref3">3</a>])
 references in bibliographies. These are referred to as *bibnotes*.
 The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
@@ -66,7 +66,7 @@ in the field, *cito:discusses* when you discuss the content of the cited article
 in the cited article. However, you are free to use any of the other CiTO types, including
 *cito:agreesWith* and *cito:disagreesWith*.
 
-We also plan to adopt this approach for comments (*cito:repliesTo*) and corrigenda (*cito:updates*).
+We also plan to adopt this approach for comments (*cito:repliesTo*) and errata/corrigenda/corrections (*cito:updates*).
 These annotations will be handled at an editorial level.
 
 With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
