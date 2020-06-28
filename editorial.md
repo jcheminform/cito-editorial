@@ -42,10 +42,10 @@ freely sharing citations, the interest is there, but the uptake is slow. The Ope
 show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
 if there are no providers of CiTO annotation, why should tools that work with citations use it? And at the
-same time, or there is no us of it, why invest effort to provide such annotation.
+same time, if there is no use of it, why invest effort to provide such annotation.
 
 However, the *Journal of Cheminformatics* considers adoption important. For example, we may want to learn what
-articles are using a method proposed in some article. We may want to see how data is reused. And we may
+articles are using a method proposed in some article. We may want to see how data is reused, or we may
 want to get warned that we are citing an article that has been refuted repeatedly.
 
 Therefore, we are starting a pilot to roll out CiTO annotation in the *Journal of Cheminformatics*. We
@@ -54,28 +54,28 @@ references in bibliographies. These are referred to as *bibnotes*.
 The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
 That is, the bibnote starts with the *[* character, followed by one of the CiTO types, and ending
 with the *]* character.
-By using this specific syntax, we introduce a level of machine readability that this annotation can
+By using this specific syntax, we introduce a level of machine readability such that this annotation can
 be extracted with text mining approaches and used by downstream citation projects.
 
 These bibnotes can be used to overwrite the default *cito:cites*. We currently encourage
 authors interested in participating in this pilot to use the following CiTO types: *cito:citesAsDataSource*
 when you use data in your paper from the cited source, *cito:usesMethodIn* when you use a method
 from the cites source, *cito:citesAsAuthority* for articles that you cite as authorative works
-in the field, *cito:discusses* when you discusse the content of the cited article, and
+in the field, *cito:discusses* when you discuss the content of the cited article, and
 *cito:extends* when your article describes a new realease of software or database described
 in the cited article. However, you are free to use any of the other CiTO types, including
 *cito:agreesWith* and *cito:disagreesWith*.
 
-We also plan to adopt this approach for comments (*cito:repliesTo*) and errata/corrigenda/corrections (*cito:cito:updates*).
+We also plan to adopt this approach for comments (*cito:repliesTo*) and errata/corrigenda/corrections (*cito:updates*).
 These annotations will be handled at an editorial level.
 
 With this pilot we hope to trigger further adoption of approaches like CiTO. We plan 
 to use this information in Wikicite [<a href="#citeref11">11</a>] and Scholia [<a href="#citeref12">12</a>]
 to demonstrate downstream use,
 but hope that projects like OpenCitations and SciGraph
-([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph)
+([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph))
 will pick it up too.
-Let this be the egg or chicken (depending on your philosophy) we are looking for to innovate
+Let this be the egg or chicken (depending on your philosophy) we are looking to innovate
 how we cite our literature.
 
 ## References
