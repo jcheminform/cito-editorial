@@ -53,7 +53,8 @@ take advantage here of the ability to add notes to *full form* (see [<cite>Q2426
 references in bibliographies. These are referred to as *bibnotes*.
 The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
 That is, the bibnote starts with the *[* character, followed by one of the CiTO types, and ending
-with the *]* character.
+with the *]* character. If you wish to provide more than one annotation, you can repeat this syntax,
+separated by one or more spaces, for example: *[cito:usesMethodIn] [cito:citeAsAuthority]*.
 By using this specific syntax, we introduce a level of machine readability such that this annotation can
 be extracted with text mining approaches and used by downstream citation projects.
 
