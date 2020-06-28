@@ -78,6 +78,10 @@ will pick it up too.
 Let this be the egg or chicken (depending on your philosophy) we are looking to innovate
 how we cite our literature.
 
+## Acknowledgments
+
+Thanks to Emma Schymanski, Rajarshi Guha, Nina Jeliazkova, Matthew Smyllie, and Silvio Peroni for feedback.
+
 ## References
 
 <references/>

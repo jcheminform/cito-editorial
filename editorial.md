@@ -78,6 +78,10 @@ will pick it up too.
 Let this be the egg or chicken (depending on your philosophy) we are looking to innovate
 how we cite our literature.
 
+## Acknowledgments
+
+Thanks to Emma Schymanski, Rajarshi Guha, Nina Jeliazkova, Matthew Smyllie, and Silvio Peroni for feedback.
+
 ## References
 
 1. <a name="citeref1"></a>Agarwal P, Searls DB. Can literature analysis identify innovation drivers in drug discovery? Nat Rev Drug Discov. 2009 Nov 1;8(11):865–78.  doi:[10.1038/NRD2973](https://doi.org/10.1038/NRD2973) ([Scholia](https://scholia.toolforge.org/doi/10.1038/NRD2973))
