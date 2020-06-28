@@ -1,6 +1,7 @@
 # Adoption of the Citation Typing Ontology by the Journal of Cheminformatics
 
-Egon Willighagen, 0000-0001-7542-0286, Dept of Bioinformatics - BiGCaT, NUTRIM, Maastricht University
+Egon Willighagen, 0000-0001-7542-0286
+Dept of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, Universiteitssingel 50, 6229 ER , Maastricht, The Netherlands
 
 We cite other literature for many reasons. The reasons are normally positive: it supports a statement
 we make in our article, the new work extends earlier ideas, or the cited paper outlines a method
