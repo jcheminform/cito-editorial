@@ -3,7 +3,7 @@
 Egon Willighagen, 0000-0001-7542-0286
 Dept of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, Universiteitssingel 50, 6229 ER , Maastricht, The Netherlands
 
-We cite other literature for many reasons. The reasons are normally positive: it supports a statement
+As authors, we cite literature for many reasons. The reasons are normally positive: it supports a statement
 we make in our article, the new work extends earlier ideas, or the cited paper outlines a method
 or a dataset we use. Sometimes, however, we cite an article differently, such as when we
 disagree with the conclusions from that article. 
@@ -15,7 +15,7 @@ thought of [<cite>Q57338674</cite>].
 Of course, citations have found additional uses that stem from the idea that articles that are
 cited a lot may be important. If we assume that all citations to an article are positive,
 this is a logical conclusion. However, citations are not always positive. We can cite an article
-because we disagree with the statements. For example, a 2011 paper in Science about the possible uptake
+because we disagree with the statements. For example, a 2011 paper in Science about the possible inclusion 
 of arsenate ions in DNA has seen mostly disagreeing citations [<cite>Q21706159</cite>].
 Then the article is important for a different reason.
 
@@ -39,7 +39,7 @@ the citing article uses the method proposed in the cite article (*cito:usesMetho
 
 If the past 10 years has shown anything, it is that the activity of scholarly communication via journal articles is
 not easily changed. Whether it is widespread adoption of data repository, minimal reporting standards, or
-freely sharing citations, the interest is there, but the uptake is slow. The OpenCitations project
+freely sharing citations, the interest may be there, but the uptake is slow. The OpenCitations project
 [<cite>Q26271531</cite>,<cite type="citesAsAuthority">Q86246929</cite>] and Initiative for Open Citations [<cite type="citesForInformation">Q29189885</cite>]
 show how hard it is to change the momentum. And while CiteULike introduced support for
 the CiTO, other references managers have not (yet). A chicken-and-egg situation may be an underlying issue:
