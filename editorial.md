@@ -16,8 +16,9 @@ cited a lot may be important. If we assume that all citations to an article are 
 this is a logical conclusion. However, citations are not always positive. We can cite an article
 because we disagree with the statements. For example, a 2011 paper in Science about the possible uptake
 of arsenate ions in DNA has seen mostly disagreeing citations [<a href="#citeref2">2</a>].
+Then the article is important for a different reason.
 
-Ten years ago, Shotton *et al.* published an ontology
+This was picked up ten years ago, when Shotton *et al.* published an ontology
 that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO) [<a href="#citeref3">3</a>]. 
 This ontology defines a citation as the act of citing some article. That allows one to make
 statements about the citation, in a machine readable way. Using the CiTO we can say the
@@ -51,7 +52,8 @@ want to get warned that we are citing an article that has been refuted repeatedl
 Therefore, we are starting a pilot to roll out CiTO annotation in the *Journal of Cheminformatics*. We
 take advantage here of the ability to add notes to *full form* (see [<a href="#citeref3">3</a>])
 references in bibliographies. These are referred to as *bibnotes*.
-The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*.
+The content of the note will be strictly formatted: it will use the syntax *[cito:usesMethodIn]*
+and formatted in bold.
 That is, the bibnote starts with the *[* character, followed by one of the CiTO types, and ending
 with the *]* character. If you wish to provide more than one annotation, you can repeat this syntax,
 separated by one or more spaces, for example: *[cito:usesMethodIn] [cito:citeAsAuthority]*.
@@ -76,6 +78,9 @@ to demonstrate downstream use,
 but hope that projects like OpenCitations and SciGraph
 ([www.springernature.com/gp/researchers/scigraph](https://www.springernature.com/gp/researchers/scigraph))
 will pick it up too.
+During the pilot, we will also develop practical guidance on how to use reference managers
+and type setting tools like Microsoft Word and LaTeX can be used to add these annotations.
+
 Let this be the egg or chicken (depending on your philosophy) we are looking to innovate
 how we cite our literature.
 
