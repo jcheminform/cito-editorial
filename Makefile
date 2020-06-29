@@ -1,7 +1,7 @@
 SOURCES := editorial.i.md
 TARGETS := editorial.md
 
-all: editorial.md
+all: editorial.pdf
 
 references.bibnotes: findCitations.groovy ${SOURCES}
 	@echo "Finding the citations"
@@ -17,3 +17,6 @@ references.dat: references.qids references.js references.extra
 %.md : %.i.md createMarkdown.groovy references.dat
 	@echo "Creating $@ ... "
 	@groovy createMarkdown.groovy $< > $@
+
+%.pdf : %.md
+	pandoc -o $@ -f markdown -t html5 $<
