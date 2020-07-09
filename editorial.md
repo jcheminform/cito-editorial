@@ -20,7 +20,8 @@ of arsenate ions in DNA has seen mostly disagreeing citations [<a href="#citeref
 Then the article is important for a different reason.
 
 This was picked up ten years ago, when Shotton *et al.* published an ontology
-that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO) [<a href="#citeref3">3</a>]. 
+that formalizes a hierachy of reasons: the Citation Typing Ontology (CiTO,
+[purl.org/spar/cito](http://purl.org/spar/cito)) [<a href="#citeref3">3</a>].
 This ontology defines a citation as the act of citing some article. That allows one to make
 statements about the citation, in a machine readable way. Using the CiTO we can say the
 citation is neutral (*cito:citesAsAuthority*), positive (*cito:confirms*), or negative (*cito:disagreesWith*).
